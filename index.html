@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CS 361 Lab 10</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">SJ<span> Electronics</span></div>
+  <div class="search-bar">
+    <input type="text" placeholder="Search products, sellers..." />
+    <button type="button">Search</button>
+  </div>
+  <div class="cart-pill">My Cart: <span id="cart-count">0</span></div>
+</header>
+
+<div class="promo-strip">FREE SHIPPING on your first order · Prices include 16% tax</div>
+
+<main>
+  <section>
+    <div class="section-head"><div class="bar"></div><h2>Deals</h2></div>
+    <div id="products-section"></div>
+  </section>
+
+  <section>
+    <div class="section-head"><div class="bar"></div><h2>Your Cart</h2></div>
+    <div class="cart-panel">
+      <ul id="cart-list"></ul>
+      <p id="cart-total">Total: K0.00</p>
+      <button id="clear-cart">Clear Cart</button>
+    </div>
+  </section>
+
+  <section>
+    <div class="section-head"><div class="bar"></div><h2>Users</h2></div>
+    <div id="users-section"><p class="status">Loading...</p></div>
+  </section>
+</main>
+
+<script type="module" src="main.js"></script>
+
+</body>
+</html>
